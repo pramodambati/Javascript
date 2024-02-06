@@ -43,7 +43,7 @@ const bigNumber = 390497989598787n
 // Reference Type (Non Primitive) reference is directly allocated
 
 // Array, Objects, Functions
-
+/*
 const heros = ['doga', 'pramod', 'Batman']
 
 let myObj = {
@@ -63,7 +63,7 @@ console.log(typeof bigNumber)
 console.log(typeof heros)
 console.log(typeof myObj)
 console.log(typeof myFunction) // object function 
-
+/*
 
 /*
 Return type of variables in JavaScript
@@ -82,5 +82,35 @@ Return type of variables in JavaScript
        Object  =>  object
        
        https://262.ecma-international.org/5.1/#sec-11.4.3
-       */
+*/
 
+
+//-------------------------------
+
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let firstName = 'Pramod'
+let anotherName = firstName
+anotherName = 'Pramu'
+
+console.log(firstName)
+console.log(anotherName)
+
+
+let userOne = {
+
+    email: "pramod@gmail.com",
+    upiId: "9390095818"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = 'pramodambati1@gmail.com'
+console.log(userOne.email)
+console.log(userTwo.email)
+
+// Primitive values goes into stack and whenever you take something inside the stack, you get only a copy of it.
+
+// Where as in Heap you will get reference change you make or update , you do it in the original value only.
