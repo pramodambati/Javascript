@@ -1,4 +1,4 @@
-let score = true
+/*let score = true
 
 // let {score} = req.body // this for backend
 
@@ -35,6 +35,53 @@ let someNumber = 33.4
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+*/
+// *********************** Operations ***********************
 
-// Operations 
-// ok
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " Pramod"
+
+let str3 = str1 + str2
+console.log(str3);
+/*
+console.log("1" + 2);
+console.log(1 + "2"); // how this is so smart ??
+console.log('1' + "2");
+console.log('1' + "2" + 2);
+console.log('1' + 2 + 2);  // it won't be 14 it's 122
+console.log(1 + 2 + "2"); // here it is 32
+
+console.log( 3 + 4 * 5 % 3) // its not practically okay while merging. messy code.
+*/
+// code should be readable 
+
+console.log(true) // true
+console.log(+true) // 1 boolean won't be increased so just outputs 1
+console.log(+"") // 0
+console.log(false) // false
+
+let num1, num2, num3 
+
+num1 = num2 = num3 = 2 + 2
+
+console.log(num1, num2, num3);
+
+
+let gameCounter = 100
+gameCounter++ // PostFix
+++gameCounter // Prefix
+
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
