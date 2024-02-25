@@ -51,5 +51,43 @@ function loginUserMessage(username = "pramu") {
 
 // console.log(loginUserMessage("pramod"));
 // console.log(loginUserMessage(""));
-console.log(loginUserMessage());
-console.log(loginUserMessage("Sweety"));
+// console.log(loginUserMessage());
+// console.log(loginUserMessage("Sweety"));
+
+
+function calcluateCartPrice(...num1){
+    return num1
+}
+
+console.log(calcluateCartPrice(299, 200, 300, 500, 2000));
+
+function calcluateCartPrice2(val1, val2, ...num1){
+    return num1
+}
+
+console.log(calcluateCartPrice2(299, 200, 300, 500, 2000));
+// rest operator whatever item you have got. pack it all in a bundle and give it to me.
+
+const user = {
+    username: "pramod",
+    prices: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+handleObject(user)
+handleObject({
+    username: "Sam",
+    price: 200
+})
+
+const myNewArray = [100, 200, 300, 400]
+
+function returnSecondValue(getArray){
+    return  getArray[2]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([100, 200, 400]));
