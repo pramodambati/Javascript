@@ -1,0 +1,25 @@
+const state; // You cannot leave like this in const
+
+// What are the different types of Datatypes in Js??
+
+what happens when we compare with null opreators.
+
+What are the different ways to declare an array ??
+
+1)When you want to find the what all methods are there for string or array go and type in console tab on chrome.
+
+my gameName = new string("Pramod")
+gameName
+
+const numbers = [1, 3, 5]
+numbers
+
+2)
+
+Read more about Array.isArray, from , of
+
+3) To master JS learn objects and events acha se.
+
+4) what are the ways to access object?
+
+5) Revise Strings,Number and Math, DateInstance, Arrays, object
